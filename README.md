@@ -4,6 +4,12 @@ the set of scheduling rules outlined by papers published by UNC's real-time GPU
 research group at OSPERT'17 and RTSS'17. Benchmark traces will fail validation if they
 do not conform to the scheduling rules.
 
+## Limitations
+Currently only traces that do not use priority streams, the NULL stream, or
+cross-stream sychronization are supported.
+
+Copy operation behavior is also not yet validated.
+
 ## Usage
 `./main.py <benchmark_file_prefix> [-d][--debug]`
 where `<benchmark_file_prefix>` would be something like `tests/bad/badly_timed_trace`
