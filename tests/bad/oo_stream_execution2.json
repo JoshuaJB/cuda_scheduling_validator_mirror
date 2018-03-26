@@ -1,0 +1,69 @@
+{
+    "PID": 19752,
+    "TID": 19772,
+    "benchmark_name": "Multi-kernel submission",
+    "data_size": 0,
+    "label": "Stream 2",
+    "max_resident_threads": 16384,
+    "release_time": 0.25,
+    "scenario_name": "Multiple kernels per stream test 1",
+    "times": [
+        {},
+        {
+            "copy_in_times": [
+                0.359700364,
+                0.359701343
+            ],
+            "copy_out_times": [
+                1.609692804,
+                1.60973927
+            ],
+            "cpu_times": [
+                0.359700364,
+                1.60973927
+            ],
+            "execute_times": [
+                0.359701855,
+                1.609692496
+            ]
+        },
+        {
+            "block_count": 1,
+            "block_smids": [
+                2
+            ],
+            "block_times": [
+                1.109667749,
+                1.609682675
+            ],
+            "cpu_core": 2,
+            "cuda_launch_times": [
+                0.359704003,
+                0.359890315,
+                0.0
+            ],
+            "kernel_name": "K2",
+            "shared_memory": 0,
+            "thread_count": 1024
+        },
+        {
+            "block_count": 1,
+            "block_smids": [
+                7
+            ],
+            "block_times": [
+                0.609649462,
+                1.109664388
+            ],
+            "cpu_core": 2,
+            "cuda_launch_times": [
+                0.359891101,
+                0.359918856,
+                0.0
+            ],
+            "kernel_name": "K3",
+            "shared_memory": 0,
+            "thread_count": 256
+        }
+    ]
+}

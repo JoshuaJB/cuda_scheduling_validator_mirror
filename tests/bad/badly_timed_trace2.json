@@ -1,0 +1,13 @@
+{
+"scenario_name": "Testing blocking: Malloc",
+"benchmark_name": "Timer Spin",
+"label": "Task 2",
+"max_resident_threads": 16384,
+"data_size": 0,
+"release_time": 0.200000,
+"PID": 7770,
+"TID": 7782,
+"times": [{},
+{"copy_in_times": [0.315974050,0.315974854], "execute_times": [0.315975316,2.316131014], "copy_out_times": [2.316131418,2.316179825], "cpu_times": [0.315974050,2.316179825]},
+{"kernel_name": "GPUSpin", "block_count": 2, "thread_count": 512, "shared_memory": 0, "cuda_launch_times": [0.315976351, 0.316066034, 2.316130102], "block_times": [0.316066117,2.316140239,0.316066149,2.316140239], "block_smids": [5,4], "cpu_core": 2}
+]}

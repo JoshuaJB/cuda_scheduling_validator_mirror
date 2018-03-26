@@ -1,0 +1,13 @@
+{
+"scenario_name": "Basic coscheduling test",
+"benchmark_name": "Timer Spin",
+"label": "Kernel 3",
+"max_resident_threads": 16384,
+"data_size": 0,
+"release_time": 0.250000,
+"PID": 20360,
+"TID": 20380,
+"times": [{},
+{"copy_in_times": [0.368475260,0.368476165], "execute_times": [0.368476678,1.118570920], "copy_out_times": [1.118571325,1.118613385], "cpu_times": [0.368475260,1.118613385]},
+{"kernel_name": "GPUSpin", "block_count": 8, "thread_count": 1024, "shared_memory": 0, "cuda_launch_times": [0.368477741, 0.368582810, 1.118570451], "block_times": [0.618547058,1.118562395,0.618546994,1.118562395,0.618547026,1.118562363,0.618546994,1.118562267,0.618547122,1.118562587,0.618547122,1.118562363,0.618547058,1.118562459,0.618547218,1.118562523], "block_smids": [4,5,6,0,3,2,1,7], "cpu_core": 3}
+]}

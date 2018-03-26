@@ -1,0 +1,13 @@
+{
+"scenario_name": "Testing blocking: Malloc",
+"benchmark_name": "Sequential action execution",
+"label": "Task 3",
+"max_resident_threads": 16384,
+"data_size": 0,
+"release_time": 0.400000,
+"PID": 7770,
+"TID": 7783,
+"times": [{},
+{"copy_in_times": [0.515972205,0.515973112], "execute_times": [0.515973574,1.043628851], "copy_out_times": [1.043629160,1.043677097], "cpu_times": [0.515972205,1.043677097]},
+{"kernel_name": "K3", "block_count": 2, "thread_count": 512, "shared_memory": 0, "cuda_launch_times": [0.793473367, 0.793611025, 0.000000000], "block_times": [0.793616875,1.043626508,0.793616875,1.043626540], "block_smids": [3,2], "cpu_core": 3}
+]}
